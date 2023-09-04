@@ -1,0 +1,29 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Binary to other convertor</title>
+</head>
+<body>
+    <div class="container">
+
+    <h1>Binary Convertor</h1>
+
+    <label id="label" for="binaryInput">Enter a Binary Number</label>
+
+    <input type="text" id="binaryInput" pattern="[01]+" placeholder="1010">
+    <button onclick="convert()">Convert</button>
+
+    <p id="p1"> Decimal <span id="mark">:</span><span id="decimal"></span></p>
+    <p id="p1"> Hexadecimal <span id="mark1">:</span><span id="hexadecimal"></span></p>
+    <p id="p1"> Octal <span id="mark2">:</span><span id="octal"></span></p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
